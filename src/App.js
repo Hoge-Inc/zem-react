@@ -3,12 +3,19 @@ import './App.css';
 import { useMoralis } from "react-moralis";
 
 function App() {
-  const { authenticate, isAuthenticated, user } = useMoralis();
+  const { authenticate, isAuthenticated, user, logout } = useMoralis();
   if (!isAuthenticated) {
     return (
-      <div>
-        <button onClick={() => authenticate()}>Authenticate</button>
-      </div>
+      <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+        <div>
+          <button class="button authenticateButton" onClick={() => authenticate()}>Authenticate</button>
+        </div>
+        </p>
+      </header>
+    </div>
     );
   }
 
@@ -18,17 +25,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <div>
+            <button class="button logoutButton" onClick={() => logout()}>Log Out</button>
             <h1>Welcome {user.get("username")}</h1>
           </div>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
     </div>
   );
