@@ -4,7 +4,9 @@ Edit abi.js with the contract address and ABI code<p></p>
 Edit App.js contract call<p></p>
 </h2>
 
-
+## #
+## #
+## #
 
 
 <div align="center">
@@ -985,7 +987,14 @@ Please follow the code guidelines before submitting a PR.
 Examples can be found in https://github.com/MoralisWeb3/demo-apps/tree/main/react-moralis-examples
 
 
-## ################################################################################################### ##
+
+
+
+## #
+## #
+## #
+
+
 
 
 # Getting Started with Create React App
