@@ -1,7 +1,7 @@
 <h2>
-Add a moralis node appId and serverUrl to the index.js
-Edit abi.js with the contract address and ABI code
-Edit App.js contract call
+Add a moralis node appId and serverUrl to the index.js<p></p>
+Edit abi.js with the contract address and ABI code<p></p>
+Edit App.js contract call<p></p>
 </h2>
 
 
